@@ -1,0 +1,55 @@
+/* ======================
+      01.wellcome
+===================== */
+
+#wellcome {
+  background-color: black;
+  color: white;
+  font-size: var(--universal-font-size-1);
+  padding: 0.1px;
+  border-radius: 0 0 20px 20px;
+}
+
+.wellcome__logo {
+  font-size: 02.5em;
+  margin: 0.6em auto 1.4em auto;
+  width: max-content;
+}
+
+.wellcome__title__box {
+  font-size: 01.5em;
+  font-family: var(--ff-title);
+  border: 2px solid white;
+  border-left: black;
+  max-width: 300px;
+  padding: 0.7em;
+}
+
+.wellcome__title__box h1 {
+  margin-left: 0.6em;
+}
+
+.wellcome__info__box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  font-size: 2em;
+  width: 70vw;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.wellcome__info__box span {
+  margin-bottom: 1em;
+}
+
+.wellcome__info__btn {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.wellcome__info__btn + .wellcome__info__btn {
+  margin-top: 0.8em;
+}
